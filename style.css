@@ -1,0 +1,36 @@
+#calculator{
+  border: 1px solid rgb(215, 204, 204);
+  width: 200px;
+  border-radius: 5px;
+}
+
+#input-box{
+  margin: 7px;
+  width: 180px;
+  height: 25px;
+  border: 1px solid rgb(242, 238, 238);
+  border-radius: 5px;
+}
+
+#input-box:hover{
+  background: rgb(250, 248, 248);
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#button{
+  width: 40px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid rgb(250, 247, 247);
+  border-radius: 3px;
+  background: none;
+}
+
+#button:hover{
+  background-color: rgb(233, 239, 246);
+}
